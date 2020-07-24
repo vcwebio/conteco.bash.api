@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+export CONTECO_LABEL="bash.api - Conteco"
+export CONTECO_DESCRIPTION="ContEco Bash base image for API implementation."
+
+export CONTECO_TYPE="bash"
+export CONTECO_NAME="api"
+export CONTECO_TAG="5.0.9"
+
+export CONTECO_BASE="external.bash:5.0.9"
+export CONTECO_BUILD="image-base"
